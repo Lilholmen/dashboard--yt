@@ -25,7 +25,7 @@ const Ecommerce = () => {
             <Button
               color="white"
               bgColor="blue"
-              text="Donload"
+              text="Download"
               borderRadius="10px"
               size="md"
             />
@@ -106,7 +106,11 @@ const Ecommerce = () => {
                   width="250px"
                   data={SparklineAreaData}
                   color="blue"
+                  borderRadius="10px"
                 />
+              </div>
+              <div className="mt-10">
+                <Button color="white" bgColor="blue" text="Download Report" />
               </div>
             </div>
           </div>
